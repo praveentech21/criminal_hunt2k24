@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" version="-//W3C//DTD XHTML 1.1//EN" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Crime Scene - Coming Soon Template</title>
+<meta name="description" content="Crime Scene - Coming Soon Template">
+<link rel="stylesheet" href="../css?family=Yanone+Kaffeesatz" type="text/css">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+
+<script type="text/javascript" src="../ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/jsProgressBarHandler.js"></script>
+<script type="text/javascript" src="js/jquery.jparallax.min.js"></script>
+<script type="text/javascript" src="js/jquery.event.frame.js"></script>
+
+<!-- ***
+PARALLAX
+**** -->
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function() 
+{
+	jQuery('#parallax .parallax-layer')
+	.parallax({
+		mouseport: jQuery('#parallax')
+	});
+});
+</script>
+
+<!--[if !(IE 7)]>
+<style type="text/css">
+	#tapes_top {position:absolute; left:auto; top:0; right:auto;}
+	#tapes_bottom {position:absolute; left:auto; top:600px; right:auto;}
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<style type="text/css">
+	#main {margin-top:-120px;}
+	#tapes_bottom {margin-top:-320px;}
+	#content_bottom {margin-top:-30px;}
+	#bg_stripes {margin-top:0;}
+	#content_bottom #bottom_right input#submit, #content_bottom #bottom_right input#submit:hover {text-transform:capitalize; height:77px;}
+	#content_bottom #bottom_right input#email {padding-top:15px;}
+</style>
+<![endif]-->
+
+<!--[if gte IE 8]>
+<style type="text/css">
+	#main {margin-top:260px;}
+	#tapes_bottom {margin-top:30px;}
+	#content_bottom {margin-top:-30px;}
+	#bg_stripes {margin-top:100px;}
+</style>
+<![endif]-->
+</head>
+
+<body>
+<div id="tapes_top"></div>
+
+
+<div id="main">
+	
+	<div id="light">
+		
+		<div id="content_left">
+			<p class="main_text"><span class="color"></span>  
+			<br></p>
+			<div id="progress">
+				<p>We are this close to solve the case:</p>
+				
+				<div id="progress_bar">		
+					<span class="progressBar" id="element1">70%</span>
+				</div>
+			</div>
+			
+		</div>
+		<!-- #content_left -->
+		
+		<div id="content_right">
+			<div id="parallax" class="clear">
+				<div class="parallax-layer" style="width:449px; height:398px;">
+					<img src="img/murdered.png" alt="" style="width:449px; height:398px;">
+				</div>
+				<div class="parallax-layer" style="width:312px; height:287px; margin:50px 0 0 50px; padding:0 50px 50px 0;">
+					<img src="img/glass.png" alt="" style="width:312px; height:287px; margin:50px 0 0 50px; padding:0 50px 50px 0;">
+				</div>
+			</div>
+		</div>
+		<div id="content_bottom">
+				
+			<div id="bottom_right">
+					<form name="txtlist" action="" target="" method="get">
+						<input id="email" type="text" name="email" value="Enter Your Email" size="20" maxlength="100" onfocus="if (this.value=='Enter Your Email') this.value=''" onblur="if (this.value=='') this.value='Enter Your Email'">
+						<input id="submit" type="submit" name="sub" value="Submit">
+					</form>
+			</div><!-- #bottom_right-->
+		</div>
+<!-- #content_right-->
+	</div><!-- #light -->
+</div>
+<!-- #main -->
+
+<div id="tapes_bottom"></div>
+
+<div id="content_bottom">
+	<div id="bottom_left">
+		<!-- <p>Get notified when we clean this mess!</p> -->
+	</div><!-- #bottom_left -->
+	
+	<!-- #bottom_right-->
+</div><!-- #content_bottom -->
+
+<div id="footer">
+	<div id="bg_stripes"></div>
+	
+	<div id="foot">
+		<div id="info">
+			<ul>
+				<li class="email"><a href="mailto:suspect@crime.scene.com">suspect@crime.scene.com</a></li>
+				<li class="phone">0012 - 345 - 678 -901</li>
+				<li class="address">123 Some Street, Any Town, Your Country</li>
+			</ul>
+		</div>
+		
+		<div id="copyright">
+			<p>Copyright 2011 <a href="#">CRIME SCENE</a> / All rights reserved</p>
+		</div>
+	</div><!-- #foot -->
+</div><!-- #footer -->
+
+</body>
+</html>

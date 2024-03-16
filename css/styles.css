@@ -1,0 +1,48 @@
+body {background:url('../img/bg.jpg') 0 0 repeat #4d1111; margin:0;}
+#main {width:980px; margin:-130px auto 0;}
+#light {background:url('../img/light.png') 0 0 no-repeat transparent; width:980px; height:672px;}
+
+/* --- TAPES - TOP --- */
+#tapes_top {background:url('../img/tapes_top.png') center center no-repeat transparent; width:100%; height:392px; margin:0 auto;}
+
+/* --- CONTENT - TOP --- */
+#content_left {width:500px; float:left; position:relative;}
+#content_left p.main_text, #bottom_left p {color:#fff; font-family:'Yanone Kaffeesatz', sans-serif; text-transform:uppercase; font-size:35px; line-height:36px; font-weight:400; letter-spacing:1px; text-shadow:2px 2px 2px #3a0d0d; margin-bottom:50px;}
+#content_left p .color {color:#e6d11d;}
+#content_left #progress {background:url('../img/progress.png') 0 0 no-repeat transparent; width:500px; height:160px; margin-left:-10px;}
+#content_left #progress p {color:#010101; font-family:'Yanone Kaffeesatz', sans-serif; text-transform:uppercase; font-size:35px; font-weight:400; letter-spacing:0; text-shadow:1px 1px 0px #fee93e; text-align:center; padding-top:30px;}
+#content_left #progress #progress_bar  {margin:15px 0 0 35px;}
+#content_left #progress #progress_bar  .percentText {margin-left:10px; margin-top:-5px; position:absolute; color:#010101; font-family:'Yanone Kaffeesatz', sans-serif; font-size:25px; font-weight:400; letter-spacing:0; text-shadow:1px 1px 0px #fee93e;}
+#content_left #progress img#element1_percentImage {background:#000;}
+#content_right {width:480px; float:right; margin-top:-50px;}
+#parallax {position:relative; overflow:hidden; width:520px; height:450px;}
+.parallax-viewport {position: relative; overflow: hidden;}
+.parallax-layer {position: absolute;}
+
+/* --- TAPES - BOTTOM --- */
+#tapes_bottom {background:url('../img/tapes_bottom.png') center center no-repeat transparent; width:100%; height:290px; margin:-300px auto 0; z-index:10;}
+
+/* --- CONTENT - BOTTOM --- */
+#content_bottom {width:980px; margin:-40px auto 0 auto; position:relative; z-index:100;}
+#content_bottom #bottom_left {width:500px; float:left;}
+#content_bottom #bottom_right {width:480px; float:right; z-index:100; margin-top:-15px;}
+#content_bottom #bottom_right form {background:url('../img/newsletter.png') 0 6px no-repeat transparent; width:480px; height:60px; border:none;}
+#content_bottom #bottom_right  input#email {background:none; width:335px; height:60px; border:none; color:#c12424; font-family:'Yanone Kaffeesatz', sans-serif; text-transform:uppercase; font-size:25px; font-weight:400; letter-spacing:1px; margin-left:18px;}
+#content_bottom #bottom_right input#submit {background:url('../img/newsletter.png') 0 -165px no-repeat transparent; width:116px; height:69px; border:none; text-indent:-9999px; cursor:pointer !important; margin-left:5px;}
+#content_bottom #bottom_right input#submit:hover {background-position: 0 -245px; width:116px; height:69px;}
+#content_bottom #bottom_right input#submit:active {background-position: 0 -321px; width:116px; height:69px;}
+
+/* --- FOOTER --- */
+#bg_stripes {background:url('../img/footer_stripes.png') 0 0 repeat-x transparent; width:100%; height:39px; margin-top:80px;}
+#foot {background:url('../img/footer.jpg') 0 0 repeat transparent; color:#e6d11d; font-family:'Yanone Kaffeesatz', sans-serif; font-size:18px; font-weight:400; letter-spacing:1px; line-height:30px; padding:30px 0;}
+#foot #info a {color:#e6d11d; text-decoration:none;}
+#foot #info a:hover {color:#e6d11d; border-bottom:1px dashed;}
+#foot #info, #foot #copyright {width:980px; margin:0 auto;}
+#foot #info ul {list-style:none;}
+#foot #info li {display:inline; margin-right:20px; padding-bottom:3px;}
+#foot #info li.email {background:url('../img/email.png') 0 4px no-repeat transparent; padding-left:40px;}
+#foot #info li.phone {background:url('../img/phone.png') 0 1px no-repeat transparent; padding-left:40px;}
+#foot #info li.address {background:url('../img/address.png') 0 0 no-repeat transparent; padding-left:33px;}
+#foot #copyright {color:#fff; margin-top:5px;}
+#foot #copyright a {color:#fff; text-decoration:none;}
+#foot #copyright a:hover {color:#fff; border-bottom:1px dashed;}
